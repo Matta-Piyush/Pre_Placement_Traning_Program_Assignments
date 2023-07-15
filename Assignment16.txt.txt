@@ -1,0 +1,50 @@
+Ans1
+A neuron is an individual computational unit that processes inputs and produces an output, while a neural network is a collection of interconnected neurons that work together to solve complex problems by learning from data.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans2
+The structure of a neuron consists of three main components: the input connections, the processing unit, and the output connection. The input connections receive signals from other neurons or external sources. The processing unit, also known as the activation function, applies a mathematical operation to the weighted sum of the inputs. The output connection transmits the processed signal to other neurons in the network.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans3
+Archtecture:
+
+Inputs: A perceptron receives one or more inputs, represented as numerical values. Each input is associated with a weight, which determines the significance of that input in the computation.
+
+Weights: Each input is multiplied by a corresponding weight, which represents the strength or importance of that input. The weights are adjustable parameters that are updated during the learning process of the perceptron.
+
+Summation Function: The weighted inputs are summed up together.
+
+Activation Function: The result of the summation function is then passed through an activation function, which introduces non-linearity into the perceptron's output.
+
+Functioning:
+
+Initialization: The weights of the perceptron are initialized with random values or set to specific values initially.
+
+Weighted Sum: The inputs are multiplied by their corresponding weights, and the weighted values are summed up.
+
+Activation: The sum is passed through an activation function, which transforms the summed value into the output of the perceptron
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans4
+The main difference between a perceptron and a multilayer perceptron is the number of layers they have. A perceptron, also known as a single-layer perceptron, has only one layer of neurons. It takes inputs, computes a weighted sum, applies an activation function, and produces an output. In contrast, a multilayer perceptron (MLP) has multiple layers of neurons, including an input layer, one or more hidden layers, and an output layer. The hidden layers enable the MLP to learn and represent complex patterns and relationships in the data by introducing nonlinear transformations between the input and output layers.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans5
+Forward propagation is the process of computing the outputs of a neural network given a set of input data. It involves passing the input data through the network, layer by layer, from the input layer to the output layer. At each layer, the inputs are multiplied by the corresponding weights, summed up, and passed through an activation function to produce the outputs. The outputs from one layer serve as inputs to the next layer until the final output layer is reached.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans6
+Backpropagation is an algorithm used to train neural networks by adjusting the weights based on the error or loss between the predicted outputs and the desired outputs. It calculates the gradient of the loss function with respect to the weights by propagating the error backward through the network. 
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans7
+The chain rule from calculus is used to efficiently compute the gradients at each layer by recursively applying the derivative of the activation function with respect to the weighted sum. Backpropagation allows the network to update the weights in a way that reduces the error and improves the network's ability to make accurate predictions.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans8
+Loss functions, also known as cost or objective functions, are mathematical functions that quantify the difference between the predicted outputs of a neural network and the desired outputs (ground truth) for a given set of training examples. They measure the network's performance and guide the learning process.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans 9
+Mean Squared Error (MSE): Used in regression tasks, MSE calculates the average squared difference between the predicted and actual values.
+Binary Cross-Entropy: Commonly used in binary classification problems, this loss function measures the dissimilarity between the predicted probabilities and the true binary labels.
+Categorical Cross-Entropy: Employed in multi-class classification problems, this loss function quantifies the difference between predicted class probabilities and true class labels.
+---------------------------------------------------------------------------------------------------------------------------------------
+Ans10
+Optimizers are algorithms used to adjust the weights of a neural network during training, with the objective of minimizing the loss function. They determine the direction and magnitude of weight updates based on the gradients computed through backpropagation. 
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
